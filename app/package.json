@@ -1,0 +1,18 @@
+{
+  "name": "mailgun-api",
+  "version": "1.0.0",
+  "description": "API server to send emails via Mailgun",
+  "main": "app.js",
+  "bin": {
+    "mailgun-api": "bin/mailgun.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mailgun-js": "^0.22.0"
+  }
+}
